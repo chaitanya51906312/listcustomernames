@@ -5,7 +5,9 @@ on:
 jobs:
   job1:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
-        working-directory: ./scripts
+  steps: 
+    -name: customers
+     defaults:
+     run:
+      shell: bash
+      working-directory: ./scripts
