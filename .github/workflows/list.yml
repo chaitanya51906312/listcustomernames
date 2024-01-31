@@ -1,0 +1,11 @@
+name: list of customer values
+
+on: 
+  workflow_dispatch:
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./scripts
