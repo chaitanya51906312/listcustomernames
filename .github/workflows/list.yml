@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
   steps: 
     -name: customers
-     defaults:
      run:
       shell: bash
       working-directory: ./scripts
